@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd $OPENSHIFT_REPO_DIR > /dev/null
+bundle install
+gem install passenger
